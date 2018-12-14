@@ -28,7 +28,7 @@ var SceneA = new Phaser.Class({
 			progressBox.fillRect(155, 270, 320, 50);
 			 
 			this.load.audio('pjanoo', [
-			'assets/pjanoo.mp3'
+			'assets/1.mp3'
 			]);
 			
 			this.load.image('audio', 'assets/audio.png');
@@ -319,7 +319,7 @@ var SceneB = new Phaser.Class({
 		this.load.image('podium', 'assets/podium.png');
 		this.load.image('fireworks', 'assets/fireworks.png');
 		this.load.audio('fireworks', [
-			'assets/fireworks.mp3'
+			'assets/2.mp3'
 			]);
     },
 
