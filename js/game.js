@@ -43,8 +43,7 @@ var SceneA = new Phaser.Class({
 			this.load.image('apacheC', 'assets/apache_card.png');
 			this.load.image('fourstarC', 'assets/fourstar_card.png');
 			this.load.image('pizzahutC', 'assets/pizzahut_card.png');
-			this.load.image('yes', 'assets/yes.png');
-			this.load.image('no', 'assets/no.png');
+			
 			 for (var i = 0; i < 150; i++) {
 			this.load.image('logo'+i, 'assets/hill.png');
 			} 
