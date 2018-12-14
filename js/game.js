@@ -28,7 +28,7 @@ var SceneA = new Phaser.Class({
 			progressBox.fillRect(155, 270, 320, 50);
 			 
 			this.load.audio('pjanoo', [
-			'assets/pjanoo.mp3'
+			'assets/Pjanoo.mp3'
 			]);
 			
 			this.load.image('audio', 'assets/audio.png');
