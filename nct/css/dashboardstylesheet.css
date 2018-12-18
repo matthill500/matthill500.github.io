@@ -1,0 +1,52 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	background-color:#e5e5e5;
+}
+ .sidebar{
+	background-color:#21252b;
+}
+.profile{
+	width:40%;
+}
+.logout{
+	height:50px;
+
+}
+.icon{
+	margin-left:1em;
+	margin-top:.8em;
+	float:right;
+}
+.main{
+
+	background-color:white;
+}
+
+.mynav{
+	text-align:center;
+}
+ul{
+	padding-top:10px;
+}
+li a{
+	color:white;
+	font-weight:300;	
+	padding-left:5px;
+}
+.header{
+	background-color:white;
+	height:100px;
+}
+a:hover { 
+	color:white;
+    font-weight:500;
+	text-decoration:none;
+} 
+.content{
+}
+ @media (min-width: 576px) {
+     .sidebar {
+          max-width: 280px;
+     }
+ }
+ 

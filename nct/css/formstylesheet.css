@@ -1,0 +1,47 @@
+.hImage{
+	width:10%;
+}
+.bg{
+	background-color:#21252b;
+
+}
+.uno{
+	margin-top:3em; 
+}
+body{			
+	background-image:url(../images/background2.jpg);
+	font-family: 'Roboto', sans-serif;
+}
+#form{
+	background-color:rgba(33, 37, 43, .9);
+	min-height:600px;
+	padding:25px 40px 40px 40px;
+	
+}
+h1{
+	font-size: 35px;
+	color:white;
+	text-align:center;
+	border-bottom:1px solid white;
+}
+label{
+	font-size:18px;
+	color:white;
+}
+.text{
+	height:43px;	
+}
+.btn-warning{
+	border-radius:0px;
+	padding:10px;
+	width:49%;
+
+}
+
+@media (min-width: 576px) {
+body{
+	background-image:url(../images/background.jpg);
+}
+.hImage{
+	width:5%;
+}
